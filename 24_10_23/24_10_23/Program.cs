@@ -169,7 +169,6 @@ namespace _24_10_23
                 Console.WriteLine("=----------------------------------------=");
                 Console.WriteLine(" Error occurred while creating the quiz: " + ex.Message);
                 Console.WriteLine("=----------------------------------------=");
-                return;
             }
         }
         static void SolveQuiz(List<Quiz> quizList)
@@ -242,7 +241,6 @@ namespace _24_10_23
                 Console.WriteLine("=--------------------------------------=");
                 Console.WriteLine("Error occurred while solving the quiz: " + ex.Message);
                 Console.WriteLine("=--------------------------------------=");
-                return;
             }
         }
 
@@ -265,7 +263,6 @@ namespace _24_10_23
                 Console.WriteLine("=-------------------------------------=");
                 Console.WriteLine("Error occurred while showing quizzes: " + ex.Message);
                 Console.WriteLine("=-------------------------------------=");
-                return;
             }
         }
     }
